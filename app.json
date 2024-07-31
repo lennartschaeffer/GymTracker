@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "GymTracker",
+    "scheme": "gymtracker",
+    "slug": "gymnetwork",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/workout.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/workout.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#161622"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.jsm.dirtywork",
+      "bundleIdentifier": "com.lennartschaeffer.gymtracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1582869c-9c73-4123-8753-cbb9151aa146"
+      }
+    },
+    "owner": "lennartschaeffer"
+  }
+}
